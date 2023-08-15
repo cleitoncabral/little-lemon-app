@@ -7,46 +7,46 @@ const Footer = () => {
       <ul>
         <li>Doormat Navigation</li>
         <li>
-          <a href="">Home</a>
+          <a href="test.com">Home</a>
         </li>
         <li>
-          <a href="">About</a>
+          <a href="test.com">About</a>
         </li>
         <li>
-          <a href="">menu</a> 
+          <a href="test.com">menu</a> 
         </li>
         <li>
-          <a href="">Reservations</a>
+          <a href="test.com">Reservations</a>
         </li>
         <li>
-          <a href="">Order Online</a>
+          <a href="test.com">Order Online</a>
         </li>
         <li>
-          <a href="">Login</a>
+          <a href="test.com">Login</a>
         </li>
       </ul>
       <ul>
         <li>Contact</li>
         <li>
-          <a href="">Adress</a>
+          <a href="test.com">Adress</a>
         </li>
         <li>
-          <a href="">phone number</a>
+          <a href="test.com">phone number</a>
         </li>
         <li>
-          <a href="">email</a> 
+          <a href="test.com">email</a> 
         </li>
       </ul>
       <ul>
         <li>Social Media Links</li>
         <li>
-          <a href="">Adress</a>
+          <a href="test.com">Adress</a>
         </li>
         <li>
-          <a href="">phone number</a>
+          <a href="test.com">phone number</a>
         </li>
         <li>
-          <a href="">email</a> 
+          <a href="test.com">email</a> 
         </li>
       </ul>
     </footer>
