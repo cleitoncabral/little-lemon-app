@@ -1,9 +1,30 @@
-
+import img from '../assets/restauranfood.jpg'
+import Card from './card'
 const Homepage = () => {
   return (
     <main>
-        <section></section>
-        <section></section>
+        <article className='heroSection'>
+          <section>
+            <h2>Little Lemon</h2>
+            <h5>Chicago</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </section>
+          <img src={img} alt="" />
+        </article>
+
+        <article className='specialSection'>
+          <section>
+            <h3>This week specials</h3>
+            <button>Online Menu</button>
+          </section>
+          <section>
+            <Card title={'Greek salada'} price={'$12.55'} text={'The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. '} />
+            <Card title={'Greek salada'} price={'$12.55'} text={'The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. '} />
+            <Card title={'Greek salada'} price={'$12.55'} text={'The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. '} />
+          </section>
+
+
+        </article>
         <section></section>
         <section></section>
     </main>

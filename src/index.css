@@ -36,6 +36,80 @@ header nav ul li a {
   font-weight: bold;
 }
 
+h2 {
+  font-family: 'Markazi Text';
+  font-size: 64px;
+  color: #F4Ce14;
+  line-height: 0px
+}
+
+h5 {
+  font-family: 'Markazi Text';
+  font-size: 40px;
+  color: #ffff;
+  line-height: 0px
+}
+
+p {
+  font-family: 'Markazi Text';
+  font-size: 16px;
+  color: #ffff;
+  line-height: 20px
+}
+
+.heroSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #495E57;
+  margin-bottom: 120px;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.heroSection section {
+  max-width: 422px;
+}
+
+.heroSection img {
+  max-width: 325px;
+  margin-bottom: -90px;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+.specialSection .card {
+  max-width: 265px;
+  background: #EDEFEE;
+}
+
+.specialSection .card section {
+  padding: 0px 30px 30px 30px;
+}
+
+.specialSection .card section div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.specialSection .card h5 {
+  font-size: 24px;
+  color: #000;
+}
+
+.specialSection .card span {
+  color: #EE9972;
+}
+
+.specialSection .card p {
+  color: #495E57;
+}
+
+.specialSection .card p span {
+  color: #000;
+}
+
 footer {
   display: flex;
   align-items: center;
