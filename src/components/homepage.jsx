@@ -1,4 +1,7 @@
+import {Link, Outlet} from 'react-router-dom'
 import img from '../assets/restauranfood.jpg'
+import imgLemon from '../assets/lemon-dessert.jpg'
+import imgSalad from '../assets/greek-salad.jpg'
 import Card from './card'
 const Homepage = () => {
   return (
@@ -15,16 +18,17 @@ const Homepage = () => {
         <article className='specialSection'>
           <section>
             <h3>This week specials</h3>
-            <button>Online Menu</button>
+            <Link><button to="/booking">Online Menu</button></Link>
           </section>
-          <section>
-            <Card title={'Greek salada'} price={'$12.55'} text={'The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. '} />
-            <Card title={'Greek salada'} price={'$12.55'} text={'The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. '} />
-            <Card title={'Greek salada'} price={'$12.55'} text={'The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. '} />
+          <section className='card-section'>
+            <Card path={imgLemon} title={'Greek salada'} price={'$12.55'} text={'The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. '} />
+            <Card path={imgSalad} title={'Greek salada'} price={'$12.55'} text={'The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. '} />
+            <Card path={imgLemon} title={'Greek salada'} price={'$12.55'} text={'The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. '} />
           </section>
 
 
         </article>
+        <Outlet />
         <section></section>
         <section></section>
     </main>

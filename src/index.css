@@ -98,8 +98,15 @@ p {
   color: #000;
 }
 
+.specialSection .card img {
+  width: 100%;
+  height: 185px;
+  border-radius: 20px 20px 0px 0px;
+}
+
 .specialSection .card span {
   color: #EE9972;
+  font-weight: bold;
 }
 
 .specialSection .card p {
@@ -108,6 +115,19 @@ p {
 
 .specialSection .card p span {
   color: #000;
+}
+
+.specialSection > section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.specialSection .card-section {
+  justify-content: center;
+  gap: 20px;
 }
 
 footer {
