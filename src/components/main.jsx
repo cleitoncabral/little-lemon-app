@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import BookingPage from '../components/BookingForm '
+import BookingPage from '../components/BookingForm'
 
 import HomePage from './homepage'
 const Main = () => {
